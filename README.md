@@ -1,12 +1,9 @@
 ## Week 3 Code Challenge Requirements
-- For this project, you must:
+For this project, you must:
 
 - Have a well-written README file.
 - Fetch data from a local server running JSON DB server.
-- Pre-requisite Data
-- You can use this JSON file for your server DB.
 
-- db.json Download db.json 
 
 # Project Setup
 - Once you have the plan in place for the application you want to build take the following steps:
