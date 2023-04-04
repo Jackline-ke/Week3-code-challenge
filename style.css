@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+body{
+    background: linear-gradient(45deg, #000000,  #595959);
+    padding: 15px 9%;
+    padding-bottom: 100px;
+    color: #fff;
+}
+#header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    color: #ffffff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 30px;
+}
+.div-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+.div-content .posters{
+    width: 250px;
+    height: 300px; 
+}
+.div-content .divList-content{
+    position: relative;
+    box-shadow: 0 5px 10px rdga(0,0,0,.2);
+    background: #1a1a1a;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px 20px;
+}
+.div-content .divList-content p{
+    line-height: 1.5;
+}
+.div-content .divList-content:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.02);
+}
+.div-content .divList-content .ticket{
+    width: 5.5em;
+    height: 2.0em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.div-content .divList-content button:hover {
+ color: black;
+}
+
+.div-content .divList-content button:after {
+ content: "";
+ background: white;
+ position: absolute;
+ z-index: -1;
+ left: -20%;
+ right: -20%;
+ top: 0;
+ bottom: 0;
+ transform: skewX(-45deg) scale(0, 1);
+ transition: all 0.5s;
+}
+
+.div-content .divList-content button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.divList-content .divTime{
+    padding: 5px;
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    background:#000000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
